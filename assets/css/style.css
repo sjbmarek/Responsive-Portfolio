@@ -1,23 +1,23 @@
-
+/*Common to all pages*/
 
 body {width: 100%;
-  padding: 0;
-  margin: 0 auto;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 130%;
-  color: #777777;
-  background-image: url("../images/concrete.png");
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    color: #777777;
+    background-image: url("../images/concrete.png");
 }
 
 .contentspace {
-	width: 960px;
-	margin: 0 auto;
+  	width: 960px;
+  	margin: 0 auto;
 }
 
 
 .headerspace {
-	position:fixed;
+	  position:fixed;
     height:92px;
     background:#ffffff;
     border:1px solid #CCC;
@@ -28,24 +28,25 @@ body {width: 100%;
 }
 
 #links {float: right; 
-	width: 270px;
-	height: 50px;
-  background: #ffffff;
-  text-align: center;
-	padding-top: 20px;
-	margin-top: 20px;
-  word-spacing: 10px;
+  	width: 270px;
+  	height: 50px;
+    background: #ffffff;
+    text-align: center;
+  	padding-top: 20px;
+  	margin-top: 20px;
+    word-spacing: 10px;
 }
 
 a {text-decoration: none;
-  color: #777777;
+    color: #777777;
 }
+
 p {overflow-wrap: auto;
-  }
+}
 
 .sidebar { 
-	float: right; 
-	width: 30%;
+  	float: right; 
+  	width: 30%;
   	margin: 120px 0px 100px 0px;
   	background: #ffffff;
   	padding:10px 20px 10px 20px;
@@ -54,32 +55,59 @@ p {overflow-wrap: auto;
   }
 
 #marek {
-	float:left;
-	height: 60px;
-	width: 300px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	text-align: center;
-	padding-top: 30px;
-	margin:0px 0px 0px 0px;
+  	float:left;
+  	height: 60px;
+  	width: 300px;
+  	color: #ffffff;
+  	background-color: #4aaaa5;
+  	text-align: center;
+  	padding-top: 30px;
+  	margin:0px 0px 0px 0px;
 }
 
 h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-  font-size: 32px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	color: #4aaaa5;
+    font-size: 32px;
 }
 
 h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-  font-size: 24px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	color: #4aaaa5;
+    font-size: 24px;
 }	
 
 
+hr {margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+footer { 
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: #777777;
+    width: 100%;
+    color: #dddddd;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    font-size: 10px;
+    padding-top: 15px;
+
+}
+
+
+/*About specific css*/
 
 .about {
-	 float: left;
+	  float: left;
   	width: 60%;
   	margin: 120px 0px 90px 0px;
   	background: #ffffff;
@@ -90,83 +118,61 @@ h2 {
 }
 
 #self {
-	float:left;
-	padding: 0px 20px 20px 0px;
+  	float:left;
+  	padding: 0px 20px 20px 0px;
 }
 
-hr {margin-top: 0.5em;
-    margin-bottom: 1.5em;
-	}
 
 
-
-
-footer { 
-  z-index: 10;
-  position: fixed;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  background-color: #777777;
-  width: 100%;
-  color: #dddddd;
-  border-top-width: 8px;
-  border-top-style: solid;
-  border-top-color: #4aaaa5;
-  font-size: 10px;
-  padding-top: 15px;
-
-}
+/*Contact specific css*/
 
 #formfields1 {
-  height:30px;
-  width: 100%;
+    height:30px;
+    width: 100%;
 }
 #formfields2 {
-  height:200px;
-  width: 100%;
+    height:200px;
+    width: 100%;
 }
 
 #button {
-  height:30px;
-  width: 150px;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  border:0px;
+    height:30px;
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border:0px;
 }
+/*Portfolio specific css*/
 .box {
-  float: left;
-  width: 250px;
-  height: 200px;
-  margin: 15px;
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 3%;
 }
 
 .relative {position:relative;}
 
 .boxgrid {
-  width:570px;
-  margin:30px;
+    width:570px;
 }
 
 .photolabel {position: relative;
-    z-index: 2;
-    top: -100px;
-    left: 0px;
-    color: #ffffff;
-    height:40px;
-    width: 250px;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding-top: 15px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+      z-index: 2;
+      top: -100px;
+      left: 0px;
+      color: #ffffff;
+      height:40px;
+      width: 250px;
+      background-color: #4aaaa5;
+      text-align: center;
+      padding-top: 15px;
+      font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
 /*  Media Queries*/
 
 @media screen and (max-width: 980px) {
     body {width: 100%;}
-  
     }
 
 
@@ -174,33 +180,40 @@ footer {
 @media screen and (max-width: 768px) {
     body {width:100%;}
   
-    .about {width: 100%;
-            margin:20% 1% 10% 1%;}
+    .about {width: 85%;
+            margin:20% 5% 10% 5%;}
 
-    .sidebar {width: 100%;
+    .sidebar {width: 85%;
               float:left;
-              margin: 0% 1% 20% 1%;}
+              margin: 0% 5% 20% 5%;}
     .contentspace {width: 100%;}
-    }
+    
+/*
+    .boxgrid {
+    width:75%;
+    margin:3%;}
+}
+*/
 
 
 @media screen and (max-width: 640px) {
-    .about {width: 100%;
-          margin: 10% 1% 10% 1%;
+    .about {width: 85%;
+          margin: 10% 5% 10% 5%;
           }
     #self {
-        display: block;
-         margin: auto;
+          display: block;
+          margin: auto;
           width: 75%;
           height:75%;
           float: none;
           }
-    .sidebar {width: 100%;
-              margin:0% 1% 20% 1%;
+    .sidebar {width: 85%;
+              margin:0% 5% 20% 5%;
               float:left;}
     .headerspace {position: static;
               width:100%;
               margin: 0 auto;
+              border: none;
               }
     .contentspace { width:100%;
               margin:0 auto;}
