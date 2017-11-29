@@ -175,6 +175,11 @@ footer {
     body {width: 100%;}
     }
 
+  .boxgrid {width: 50%;
+            margin: auto;}
+
+  .box {margin: 0%;}
+
 
 
 @media screen and (max-width: 768px) {
@@ -187,6 +192,17 @@ footer {
               float:left;
               margin: 0% 5% 20% 5%;}
     .contentspace {width: 100%;}
+
+    .box {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 3%;
+}
+
+    .boxgrid {
+    width:570px;
+}
     
 
 
